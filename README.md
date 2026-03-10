@@ -29,6 +29,7 @@
 - Update the store with Trailer video data
 - Embeded Youtube Video and make it autoplay and mute
 - Tailwind Classes to make mail container look awesome
+- build secondaryComponent
 
 # Features
 - Login / Signup

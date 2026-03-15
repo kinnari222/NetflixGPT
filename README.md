@@ -30,6 +30,14 @@
 - Embeded Youtube Video and make it autoplay and mute
 - Tailwind Classes to make mail container look awesome
 - build secondaryComponent
+- Build Movie List
+- Build Movie Card
+- TMDB Image CDN
+- Made browser page amazing with Tailwind CSS
+- usePopularMovie custom hook
+- GPT Search page
+- GPT Search Bar
+- MultiLanguage Feature in our app
 
 # Features
 - Login / Signup

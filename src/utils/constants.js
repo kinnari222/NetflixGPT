@@ -8,7 +8,7 @@ export const API_OPTIONS = {
   headers: {
     accept: "application/json",
     Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNTIzY2E1MDUwOTQ0M2I4Nzg0NGI0MTFjN2ExN2ZmNiIsIm5iZiI6MTc3MjY3MTY5OS40MDcsInN1YiI6IjY5YThkMmQzOGQ4ODU0NTU5NzViZTJjMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.fnBzdmbe9fj1HaUMZr3nRytGZYqnlpPtf0fawEC1HfQ",
+      "Bearer" + process.env.REACT_APP_TMDB_KEY
   },
 };
 
@@ -17,5 +17,10 @@ export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 export const BG_URL =
   "https://assets.nflxext.com/ffe/siteui/vlv3/37372b0c-16ef-4614-9c66-f0464ffe4136/web/IN-en-20260216-TRIFECTA-perspective_74aa38a5-f527-417e-a604-a039567a350b_large.jpg";
 
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+];
 
-export const SUPPORTED_LANGUAGES = [{ identifier: 'en', name: 'English' }, { identifier: 'hindi', name: 'Hindi' }, { identifier: 'spanish', name: 'Spanish' }]
+export const OPENAI_GPT_KEY = process.env.REACT_APP_OPENAI_KEY;
